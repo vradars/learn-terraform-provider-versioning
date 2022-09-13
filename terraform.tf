@@ -1,12 +1,11 @@
 terraform {
-  /* Uncomment this block to use Terraform Cloud for this tutorial
+  
   cloud {
-    organization = "organization-name"
+    organization = "Yogaya"
     workspaces {
-      name = "learn-terraform-provider-versioning"
+      name = "Terraform-Training"
     }
   }
-  */
 
   required_providers {
     random = {
